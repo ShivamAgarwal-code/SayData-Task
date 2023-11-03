@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+  background: #2675e4;
+}

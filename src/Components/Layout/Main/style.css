@@ -1,0 +1,33 @@
+.main{
+    height: auto;
+    width: 81.2%;
+  }
+  .home{
+    padding: 24px 36px;
+    background: #F9FAFB;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .cards-container{
+    width: 100%;
+  }
+  .cards{
+    display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 16px;
+  height: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .cards-container{
+      display: flex;
+      overflow: scroll;
+    }
+    .cards{
+      width:fit-content;
+    }
+  }
+  

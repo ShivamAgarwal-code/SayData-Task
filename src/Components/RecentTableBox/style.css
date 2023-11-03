@@ -1,0 +1,136 @@
+
+.download{
+    color: #0048AD !important;
+font-family: Inter !important;
+font-size: 14px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 20px !important;
+letter-spacing: -0.084px !important;
+cursor: pointer;
+}
+.RecentFiles{
+    display: flex;
+  width: 100%;
+  height:auto;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 12px;
+  border: 1px solid #E4E7EC;
+  background: #fff;
+  }
+  .RecentFilesHeading{
+    color: #000;
+  font-feature-settings: 'cv04' on, 'cv03' on, 'cv01' on;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; 
+  letter-spacing: -0.36px;
+  }
+  .Horizontal{
+    display: flex;
+  height: 1px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  }
+  .Line{
+    width: 100%;
+  align-self: stretch;
+  background:  #E4E7EC;
+  }
+  table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    height: auto;
+    width: 100%;
+  }
+  tr:first-child{
+    background: #EBF3FF;
+  }
+  tr:not(:first-child){
+    border-bottom: 1px solid #EFEFEF;
+  }
+  tr{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  td:not(:first-child){
+    width: 100%;
+  }
+  td{
+    display: flex;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  }
+ .p-dialog{
+    background-color: #000000d1;
+    color: white;
+    border-radius: 11px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+ .p-dialog-title{
+    font-size: 25px;
+  }
+  .p-confirm-dialog-message{
+    font-size: 20px
+  }
+  .p-dialog-footer>button{
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: none;
+  }
+  .p-dialog-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  .p-icon{
+    color: white;
+    font-size: 20px;
+  }
+  .Tablecell{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  color: var(--neutral-90, #404040);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  align-self: stretch;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.084px;
+  }
+  .check{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media only screen and (max-width: 600px) {
+    .RecentFiles{
+        overflow: scroll;
+      }
+      table{
+        width: 1048px;
+      }  
+  }
